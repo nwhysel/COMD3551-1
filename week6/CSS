@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<meta charset="utf-8">
+<title>Products_Page</title>
+
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Most Popular Perfume </h2>
+
+<h4>The 10 greatest fragrances of all time, as voted on by beauty industry insiders and executives.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="chanel_No.5jpg.jpg">
+      <img src="chanel_No.5jpg.jpg" alt="Chanel" width="600" height="400">
+    </a>
+    <div class="desc">Fragrance Family: Floral
+
+Scent Type: Powdery Floral
+
+Key Notes: Aldehydes, Jasmine, Neroli, Sandalwood
+
+Fragrance Description:
+Since its creation in 1921, N°5 has exuded the very essence of femininity: An abstract, mysterious scent, alive with countless subtle facets, radiating an extravagant floral richness. In 1986, Jacques Polge, reinterpreted his predecessor Ernest Beaux’s composition to create a fuller, more voluminous version of the now and forever women's fragrance: the Eau de Parfum.</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Coco.jpg">
+      <img src="Coco.jpg" alt="COCO" width="600" height="400">
+    </a>
+    <div class="desc">Fragrance Family: Floral
+		
+Scent Type: Warm Floral
+		
+Key Notes: Orange, Patchouli, Turkish Rose
+		
+Fragrance Description: Irresistibly sexy, irrepressibly spirited. A sparkling ambery fragrance that recalls a daring young Coco Chanel. An absolutely modern composition with a strong yet surprisingly fresh character.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="J’adore By Christian Dior .jpeg">
+      <img src="J’adore By Christian Dior .jpeg" alt="J’adore Dior " width="600" height="400">
+    </a>
+    <div class="desc">
+Fragrance Family: Floral
+		
+Scent Type: Warm Florals
+
+Key Notes: Ylang Ylang, Damascus Rose, Jasmine
+
+Fragrance Description: An iconic House of Dior perfume for women, J’adore Eau de Parfum is an irresistibly seductive floral composition. The fruity-floral notes of ylang-ylang essence combine with the warmth of Damascus rose essence and jasmine for a supremely feminine and mysterious fragrance.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Dolce & Gabbana EDT.jpg">
+      <img src="Dolce & Gabbana EDT.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Fragrance Family: Fresh
+
+Scent Type: Fresh Citrus and Fruits
+
+Key Notes: Citrus, Apple, Bamboo
+
+Fragrance Description: This colorful, fresh, floral fruity Eau de Toilette reflects the sensuality of the Mediterranean lifestyle. Sicilian cedar combines with the freshness of the green apple and the floral allure and spontaneity of the bluebell, the top note captures the essence of a sunny South Italian summer.</div>
+  </div>
+</div>
+	
+	
+	
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Perfume may be thought of as a wonderful brand of individuality and personal style, as well as an excellent alternative for gifting ladies and pleasing them with the sensations of those that are the most popular in various nations.</p>
+  <p>What better time than to ask the people who know fragrance best — beauty industry insiders — to vote on the top 10 fragrances of all time.</p>
+</div>
+
+</body>
+</html>
